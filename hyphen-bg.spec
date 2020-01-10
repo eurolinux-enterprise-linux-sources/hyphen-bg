@@ -1,7 +1,7 @@
 Name: hyphen-bg
 Summary: Bulgarian hyphenation rules
 Version: 4.3
-Release: 5%{?dist}
+Release: 6%{?dist}
 Source: http://downloads.sourceforge.net/bgoffice/OOo-hyph-bg-%{version}.zip
 Group: Applications/Text
 URL: http://bgoffice.sourceforge.net/
@@ -46,6 +46,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/hyphen/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.3-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 4.3-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
